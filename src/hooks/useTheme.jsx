@@ -4,7 +4,7 @@ const STORAGE_KEY = "portfolio-theme";
 
 function readInitialTheme() {
   if (typeof window === "undefined") {
-    return "light";
+    return "dark";
   }
 
   try {
@@ -13,10 +13,10 @@ function readInitialTheme() {
       return storedTheme;
     }
   } catch (error) {
-    return "light";
+    return "dark";
   }
 
-  return "light";
+  return "dark";
 }
 
 export function useTheme() {
