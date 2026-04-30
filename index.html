@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      (() => {
+        const storageKey = "portfolio-theme";
+        const root = document.documentElement;
+        let theme = "light";
+
+        try {
+          const storedTheme = localStorage.getItem(storageKey);
+          if (storedTheme === "dark" || storedTheme === "light") {
+            theme = storedTheme;
+          }
+        } catch (error) {
+          theme = "light";
+        }
+
+        root.classList.toggle("dark", theme === "dark");
+        root.style.colorScheme = theme;
+      })();
+    </script>
+    <title>Vansh's Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Vansh Kumar — Full Stack MERN Developer, C++ programmer, and AI Enthusiast building real-world applications."
+    />
+    <meta property="og:title" content="Vansh's Portfolio" />
+    <meta
+      property="og:description"
+      content="Full Stack MERN Developer & AI Enthusiast. Projects: CuraID, WanderLust."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
