@@ -111,7 +111,7 @@ function HomePage() {
               {[
                 { k: "2+", v: "Years Hands-on Coding" },
                 { k: "4+", v: "Projects built" },
-                { k: "8+", v: "Certifications" },
+                { k: "9+", v: "Certifications" },
                 { k: "3+", v: "Hackathons" },
               ].map((s) => (
                 <div key={s.v} className="glass rounded-xl p-4">
