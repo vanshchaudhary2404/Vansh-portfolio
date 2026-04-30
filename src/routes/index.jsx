@@ -54,7 +54,7 @@ function HomePage() {
             </div>
 
             <h1 className="mt-4 font-display text-5xl font-bold leading-[1.05] tracking-tight md:text-7xl lg:text-8xl">
-              Hey, I'm <span className="text-gradient">Vansh Kumar</span>.{/* <br /> */}
+              Hey, I'm <span className="text-gradient">Vansh </span>.{/* <br /> */}
               {/* I build the <span className="text-gradient">web</span> & ship <span className="text-gradient">AI</span>. */}
             </h1>
 
