@@ -85,7 +85,7 @@ function HomePage() {
                 <ArrowRight size={16} className="transition group-hover:translate-x-1" />
               </a>
               <a
-                href="https://drive.google.com/file/d/1h5aC8eAgGh2BWz0jfxmF9UEgc-gzzHgN/view"
+                href="https://drive.google.com/file/d/1Jr6kIDCN-Seyjebv_Dzssz9wQnwtIc9e/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-border bg-card/50 px-6 py-3 text-sm font-semibold transition hover:border-primary"
