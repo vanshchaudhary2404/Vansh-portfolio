@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Github, ExternalLink } from "lucide-react";
+import overlayImage from "../assests/overlay.png";
 
 export const Route = createFileRoute("/projects")({
   head: () => ({
@@ -39,7 +40,7 @@ const projects = [
   ],
     accent: "linear-gradient(135deg, #d4af37 0%, #f5d76e 50%, #b8860b 100%)",
     glow: "rgba(212, 175, 55, 0.28)",
-    image: "/src/assests/overlay.png",
+    image: overlayImage,
     featured: true,
     github: "https://github.com/vanshchaudhary2404/Anvexa",
     live: "https://anvexa.onrender.com/",
